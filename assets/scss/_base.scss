@@ -1,0 +1,48 @@
+.choose-preference {
+    min-height: 100vh;
+}
+.card.veg {
+    min-height: 100px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    flex-direction: initial;
+    justify-content: space-between;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    border-radius: 8px;
+}
+.border-pagination ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    li  {
+        span {
+            display: inline-block;
+            max-width: 100%;
+            width: 90px;
+            height: 6px;
+            background: grey;
+            border-radius: 50Px;
+            margin: 0 5px;
+        }
+        &.active {
+            span {
+                background: #cb0101;
+            }
+        }
+    }
+}
+.btn-outline-secondary {
+    min-width: 100px;
+    border: 2px solid #93959e;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: .4rem 1rem;
+}
+.btn-link {
+    color: #000;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 600;
+}
